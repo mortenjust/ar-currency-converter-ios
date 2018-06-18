@@ -1,0 +1,20 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
+    {
+      "filename" : "erdbeer.arreferenceimage"
+    },
+    {
+      "filename" : "natural.arreferenceimage"
+    },
+    {
+      "filename" : "quinoa.arreferenceimage"
+    },
+    {
+      "filename" : "tictac.arreferenceimage"
+    }
+  ]
+}
