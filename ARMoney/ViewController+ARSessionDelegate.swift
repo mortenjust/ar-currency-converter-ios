@@ -79,13 +79,11 @@ extension ViewController: ARSessionDelegate {
     // MARK: - Interface Actions
     
     func restartExperience() {
+        print("restartExperience")
         guard isRestartAvailable else { return }
         isRestartAvailable = false
-        
         statusViewController.cancelAllScheduledMessages()
-        
-        resetTracking()
-        
+        resetTracking()        
         // Disable restart for a while in order to give the session time to restart.
         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
             self.isRestartAvailable = true

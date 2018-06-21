@@ -10,9 +10,10 @@
 		3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */; };
 		3929C48E1E89EC2C00E00B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48D1E89EC2C00E00B60 /* ViewController.swift */; };
 		3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3929C48F1E89EC2C00E00B60 /* Main.storyboard */; };
-		3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3929C4921E89EC2C00E00B60 /* Assets.xcassets */; };
 		39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */; };
 		C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41366B81EB80DD400EC054A /* StatusViewController.swift */; };
+		C828E48C20D7CA9600E5E2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C828E48B20D7CA9600E5E2F8 /* Assets.xcassets */; };
+		C828E48E20D7D67700E5E2F8 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828E48D20D7D67700E5E2F8 /* Currency.swift */; };
 		C83EAAFE20D7B12E00D64428 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83EAAFD20D7B12E00D64428 /* CurrencyConverter.swift */; };
 		C8A3671120D3F85F00DF3F85 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A3671020D3F85F00DF3F85 /* art.scnassets */; };
 		C8C12A711F29277B00B011FE /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */; };
@@ -20,16 +21,17 @@
 
 /* Begin PBXFileReference section */
 		11063F3B1EBE651B0033EE6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3929C4881E89EC2C00E00B60 /* ARKitImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3929C4881E89EC2C00E00B60 /* ARMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3929C48D1E89EC2C00E00B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3929C4901E89EC2C00E00B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3929C4921E89EC2C00E00B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3929C4971E89EC2C00E00B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C14378D0C14383A000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		C16CC420C16CC45000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C41366B81EB80DD400EC054A /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		C828E48B20D7CA9600E5E2F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C828E48D20D7D67700E5E2F8 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		C83EAAFD20D7B12E00D64428 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
 		C8A3671020D3F85F00DF3F85 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSessionDelegate.swift"; sourceTree = "<group>"; };
@@ -58,7 +60,7 @@
 		1488324C1EFC3ED00043E0AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3929C4921E89EC2C00E00B60 /* Assets.xcassets */,
+				C828E48B20D7CA9600E5E2F8 /* Assets.xcassets */,
 				3929C4971E89EC2C00E00B60 /* Info.plist */,
 				3929C48F1E89EC2C00E00B60 /* Main.storyboard */,
 				39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */,
@@ -71,7 +73,7 @@
 			children = (
 				C8FEE73520D4FED80062CEE8 /* MyPlayground.playground */,
 				11063F3B1EBE651B0033EE6D /* README.md */,
-				3929C48A1E89EC2C00E00B60 /* ARKitImageRecognition */,
+				3929C48A1E89EC2C00E00B60 /* ARMoney */,
 				3929C4891E89EC2C00E00B60 /* Products */,
 				C14382D0C143840000000001 /* Configuration */,
 				C16C1080C16BFB2000000001 /* LICENSE */,
@@ -81,23 +83,24 @@
 		3929C4891E89EC2C00E00B60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3929C4881E89EC2C00E00B60 /* ARKitImageRecognition.app */,
+				3929C4881E89EC2C00E00B60 /* ARMoney.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3929C48A1E89EC2C00E00B60 /* ARKitImageRecognition */ = {
+		3929C48A1E89EC2C00E00B60 /* ARMoney */ = {
 			isa = PBXGroup;
 			children = (
 				C8A3671020D3F85F00DF3F85 /* art.scnassets */,
 				3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */,
+				C83EAAFD20D7B12E00D64428 /* CurrencyConverter.swift */,
+				C828E48D20D7D67700E5E2F8 /* Currency.swift */,
 				3929C48D1E89EC2C00E00B60 /* ViewController.swift */,
 				C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */,
 				1488324B1EFC3EBF0043E0AB /* Additional View Controllers */,
 				1488324C1EFC3ED00043E0AB /* Resources */,
-				C83EAAFD20D7B12E00D64428 /* CurrencyConverter.swift */,
 			);
-			path = ARKitImageRecognition;
+			path = ARMoney;
 			sourceTree = "<group>";
 		};
 		C14382D0C143840000000001 /* Configuration */ = {
@@ -119,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3929C4871E89EC2C00E00B60 /* ARKitImageRecognition */ = {
+		3929C4871E89EC2C00E00B60 /* ARMoney */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3929C49A1E89EC2C00E00B60 /* Build configuration list for PBXNativeTarget "ARKitImageRecognition" */;
+			buildConfigurationList = 3929C49A1E89EC2C00E00B60 /* Build configuration list for PBXNativeTarget "ARMoney" */;
 			buildPhases = (
 				3929C4841E89EC2C00E00B60 /* Sources */,
 				3929C4851E89EC2C00E00B60 /* Frameworks */,
@@ -131,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = ARKitImageRecognition;
+			name = ARMoney;
 			productName = ARKitImageRecognition;
-			productReference = 3929C4881E89EC2C00E00B60 /* ARKitImageRecognition.app */;
+			productReference = 3929C4881E89EC2C00E00B60 /* ARMoney.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3929C4831E89EC2C00E00B60 /* Build configuration list for PBXProject "ARKitImageRecognition" */;
+			buildConfigurationList = 3929C4831E89EC2C00E00B60 /* Build configuration list for PBXProject "ARMoney" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -167,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3929C4871E89EC2C00E00B60 /* ARKitImageRecognition */,
+				3929C4871E89EC2C00E00B60 /* ARMoney */,
 			);
 		};
 /* End PBXProject section */
@@ -179,7 +182,7 @@
 			files = (
 				39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */,
 				C8A3671120D3F85F00DF3F85 /* art.scnassets in Resources */,
-				3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */,
+				C828E48C20D7CA9600E5E2F8 /* Assets.xcassets in Resources */,
 				3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C828E48E20D7D67700E5E2F8 /* Currency.swift in Sources */,
 				3929C48E1E89EC2C00E00B60 /* ViewController.swift in Sources */,
 				C83EAAFE20D7B12E00D64428 /* CurrencyConverter.swift in Sources */,
 				C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */,
@@ -337,7 +341,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDGLB23X37;
-				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageRecognition/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARMoney/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mortenjust.counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,7 +362,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDGLB23X37;
-				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageRecognition/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARMoney/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mortenjust.counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3929C4831E89EC2C00E00B60 /* Build configuration list for PBXProject "ARKitImageRecognition" */ = {
+		3929C4831E89EC2C00E00B60 /* Build configuration list for PBXProject "ARMoney" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3929C4981E89EC2C00E00B60 /* Debug */,
@@ -379,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3929C49A1E89EC2C00E00B60 /* Build configuration list for PBXNativeTarget "ARKitImageRecognition" */ = {
+		3929C49A1E89EC2C00E00B60 /* Build configuration list for PBXNativeTarget "ARMoney" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3929C49B1E89EC2C00E00B60 /* Debug */,

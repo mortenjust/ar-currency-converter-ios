@@ -8,6 +8,8 @@
 
 import UIKit
 
-class Currency: NSObject {
-
+struct Currency {
+    var country : String
+    var symbol: String
+    var rate : Double
 }

@@ -50,18 +50,18 @@ class StatusViewController: UIViewController {
 	
 	func showMessage(_ text: String, autoHide: Bool = true) {
         // Cancel any previous hide timer.
-        messageHideTimer?.invalidate()
-
-        messageLabel.text = text
-
-        // Make sure status is showing.
-        setMessageHidden(false, animated: true)
-
-        if autoHide {
-            messageHideTimer = Timer.scheduledTimer(withTimeInterval: displayDuration, repeats: false, block: { [weak self] _ in
-                self?.setMessageHidden(true, animated: true)
-            })
-        }
+//        messageHideTimer?.invalidate()
+//
+//        messageLabel.text = text
+//
+//        // Make sure status is showing.
+//        setMessageHidden(false, animated: true)
+//
+//        if autoHide {
+//            messageHideTimer = Timer.scheduledTimer(withTimeInterval: displayDuration, repeats: false, block: { [weak self] _ in
+//                self?.setMessageHidden(true, animated: true)
+//            })
+//        }
 	}
     
 	func scheduleMessage(_ text: String, inSeconds seconds: TimeInterval, messageType: MessageType) {
@@ -112,6 +112,7 @@ class StatusViewController: UIViewController {
     // MARK: - IBActions
     
     @IBAction private func restartExperience(_ sender: UIButton) {
+        print("Restart pressed")
         restartExperienceHandler()
     }
 	
