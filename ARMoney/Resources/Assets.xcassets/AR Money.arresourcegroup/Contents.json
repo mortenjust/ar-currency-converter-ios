@@ -1,0 +1,68 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
+    {
+      "filename" : "CAD-20-A.arreferenceimage"
+    },
+    {
+      "filename" : "CAD-20-B.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-5-A.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-5-B.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-20-A.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-20-B.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-50-A.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-50-B.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-100-A.arreferenceimage"
+    },
+    {
+      "filename" : "CHF-100-B.arreferenceimage"
+    },
+    {
+      "filename" : "DKK-100-A.arreferenceimage"
+    },
+    {
+      "filename" : "DKK-100-B.arreferenceimage"
+    },
+    {
+      "filename" : "MXN-50-A.arreferenceimage"
+    },
+    {
+      "filename" : "MXN-50-B.arreferenceimage"
+    },
+    {
+      "filename" : "MXN-100-A.arreferenceimage"
+    },
+    {
+      "filename" : "MXN-100-B.arreferenceimage"
+    },
+    {
+      "filename" : "SGD-2-A.arreferenceimage"
+    },
+    {
+      "filename" : "SGD-2-B.arreferenceimage"
+    },
+    {
+      "filename" : "USD-1-A.arreferenceimage"
+    },
+    {
+      "filename" : "USD-1-B.arreferenceimage"
+    }
+  ]
+}
