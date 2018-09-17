@@ -33,7 +33,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         restartExperience()
     }
     
-
     let updateQueue = DispatchQueue(label: Bundle.main.bundleIdentifier! +
         ".serialSceneKitQueue")
     
@@ -69,7 +68,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         resetTracking()
 	}
 	
-    
+
 	override func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
 
@@ -101,6 +100,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Money", bundle: nil) else {
             fatalError("Missing expected asset catalog resources.")
         }
+    
         
         let configuration = ARWorldTrackingConfiguration()
         configuration.detectionImages = referenceImages
@@ -145,7 +145,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             planeNode.geometry?.firstMaterial?.readsFromDepthBuffer = false
 
             node.addChildNode(planeNode)            
-
+ 
             let anchorNode = SCNScene(named: "art.scnassets/currency.scn")!.rootNode.childNodes[0]
             
             let converter = CurrencyConverter()
@@ -154,6 +154,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             if let textGeometry = anchorNode.childNodes[0].geometry as? SCNText {
                 textGeometry.string = "\(converted.formattedAmount)"
             }
+            
             if let textGeometry = anchorNode.childNodes[1].geometry as? SCNText {
                 textGeometry.string = "\(converted.country)"
             }
@@ -189,9 +190,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                     
                     self.speak(s: "The total is \(Int(self.subTotal.amount)) \(self.subTotal.friendlyCurrency)")
                 })
-                
-                
-                
             }
         }
 
@@ -219,6 +217,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     func speak(s:String){
+        if !enableVoiceOver { return }
+        
         let voices = AVSpeechSynthesisVoice.speechVoices()
         print(voices)
         var voiceToUse: AVSpeechSynthesisVoice?
